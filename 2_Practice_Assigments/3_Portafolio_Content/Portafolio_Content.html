@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Example of Portafolio Content">
+        <meta name="author" content="Kevin J">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Content</title>
+        <link rel="stylesheet" href="style.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Programmer Name</h1>   
+            <div>
+                <img class="borderimage" src="Images/Person_Icon.png" alt="Person Icon" width="60" height="65" >
+            </div>
+            <div>
+                <img src="Images/Github.png" alt="Github Icon" width="20" height="20"> <a href="https://github.com/kjacome24"> my github</a>
+                <img src="Images/Linkedin.png" alt="Linkedin Icon" width="20" height="20"> <a href="https://www.linkedin.com/in/kevin-jacome-d-a638a3246/">my linkedin</a>
+                <img src="Images/envelope.avif" alt="Email Icon" width="20" height="20"> <a href="kevin.arturo.jacome.duque@gmail.com">my email</a>
+            </div>
+    </header> 
+
+    <main>
+        <h3>Technologies</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="upborder leftborder">Front-End</th>
+                        <th class="upborder">Python</th>
+                        <th class="upborder">Javascript</th>
+                        <th class="upborder">Database</th>
+                        <th class="upborder rightborder">Concepts</th>
+                    </tr>
+                </thead>  
+                <tbody>
+                    <tr>
+                        <td class="leftborder">HTML5</td>
+                        <td>Django</td>
+                        <td>Express</td>
+                        <td>MySQL</td>
+                        <td class="rightborder">AJAX</td>
+                    </tr>
+                    <tr>
+                        <td class="leftborder">CSS3</td>
+                        <td>Flask</td>
+                        <td>Mongoose</td>
+                        <td>MongoDb</td>
+                        <td class="rightborder">OOP</td>
+                    </tr>
+                    <tr>
+                        <td class="leftborder downborder">Boostrap</td>
+                        <td class="downborder">Unittest</td>
+                        <td class="downborder">React</td>
+                        <td class="downborder"></td>
+                        <td class="downborder rightborder">REST</td>
+                    </tr>
+                </tbody>   
+            </table>
+        <h3>Social Snakes</h3>
+        <button id="socialsnakes"><strong>&lt/></strong></button>
+        <p>Social Media App made in Python - <a href="https://dictionary.cambridge.org/es/diccionario/ingles/code">code</a> | <a href="https://dictionary.cambridge.org/es/diccionario/ingles/deployed">deployed</a></p>
+    </main>
+
+    <footer>
+        <h3>Contact Me</h3>
+        <form action="Contactmeform.html" method="GET">
+            <div>
+                <label FOR="name">Name: </label>
+                <input type="text" id="name" name="name" size=11>
+                <label FOR="email">Email: </label>
+                <input type="email" id="email" name="email" size=11>
+
+            </div>
+            <div>
+                <br>
+                <label id="label1" FOR="message">Message: </label>
+                <textarea id="message" name="message" cols="35" rows="3"></textarea>
+            </div>
+            <div>
+                <input type="submit" id="sendmessagebutton" value="Send message">
+            </div>
+        </form>
+    </footer>
+
+
+    </body>
+</html>

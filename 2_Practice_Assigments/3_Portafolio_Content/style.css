@@ -1,0 +1,59 @@
+
+* {
+    font-family: 'Preahvihear', sans-serif;    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tH, td{
+    border-collapse: collapse; 
+    border: solid;
+}
+
+/*This class was created to give a border to the contact icon*/
+.borderimage{
+    border: 2px solid black;
+}
+
+/*The following classes were created to remove borders in the corners*/
+.upborder{
+    border-top: none;
+}
+.downborder{
+    border-bottom: none;
+}
+.leftborder{
+    border-left: none;
+}
+.rightborder{
+    border-right: none;
+}
+/*The following class is for the button of the app Social snakes*/
+
+#socialsnakes{
+    border: 2px solid black;
+    height: 55px;
+    width: 50px;
+    background-color: #f5f5f5;
+    color:black;
+    font-size: x-large;
+    margin: 5px;  
+}
+
+/*The following code is to alling the message on the top nex to the textbox*/
+#label1{
+    vertical-align: top;
+}
+
+
+#sendmessagebutton{
+    border: 2.5px solid black;
+    height: 30px;
+    width: 140px;
+    background-color: #FFFFFF;
+    color:black;
+    box-shadow: 5PX 5PX 0PX black; 
+    margin: 5px; 
+}
