@@ -1,0 +1,47 @@
+*{
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #979797 ;}
+
+.active{
+    color: #d7d7d7;
+}
+
+.btn{
+    color: #ebf7f9;
+    background-color: #17a2b8;
+    box-shadow: 5PX 7PX 0PX black; 
+    border: 2px solid black;
+    margin:0%;
+
+}
+
+
+.nav{
+    background-color:#333333;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;}
+
+.nav-title{ padding: 1% 2% 1% 2%;
+margin: 0;
+display: inline-block;
+width: 50%;
+color: #fefefe;}
+
+.nav-links{
+    margin: 2% 2% 2% 2%;
+    padding: 0%;
+    display: inline-block;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
