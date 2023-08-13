@@ -1,0 +1,44 @@
+
+
+body{
+    background-color:#eff9dd;
+    width: 50%;
+
+}
+
+main{
+    width: auto;
+    padding: 20px;
+    padding: 0%;
+}
+
+footer, header{text-align: center;
+    color: #747470;}
+
+.div1{
+    background-color: #59c5ed;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+
+}
+.div2 {
+    background-color: #cea2ba;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+.div3 {
+    background-color: #fcfce6;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+img {
+    height: 200px;
+    margin: 2%;
+    
+}
