@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    }
+    .col {
+    flex: 1;
+    background-color: aqua;
+    margin:1px;
+    border: 2px solid;
+    }
+    
+    .col-2{flex: 2;
+       background-color: yellow;
+       margin:0px;
+       margin:1px;
+       border: 2px solid;}
+    
+    .col-3{flex: 3;
+       background-color: red;
+       margin:0px;
+       margin:1px;
+       border: 2px solid;}
+    
+    

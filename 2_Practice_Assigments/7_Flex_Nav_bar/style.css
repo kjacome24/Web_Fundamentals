@@ -32,7 +32,9 @@ li, a {
 margin: 0;
 display: inline-block;
 width: 50%;
-color: #fefefe;}
+color: #fefefe;
+/* flex: 1; */
+}
 
 .nav-links{
     margin: 2% 2% 2% 2%;
@@ -41,6 +43,7 @@ color: #fefefe;}
     width: 50%;
     display: flex;
     justify-content: space-between;
+    /* flex: 1; */
 }
 
 
