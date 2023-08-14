@@ -1,22 +1,71 @@
-.row {
-display: flex;
-}
-.col {
-flex: 1;
-background-color: aqua;
-margin:1px;
-border: 2px solid;
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Preahvihear', sans-serif;
+   
+ }
+
+
+ .ContainerParent{
+  width: 66%;
+  height: 450px;
+  border: 1% solid #e8e8e8;
+  margin: 5% auto;
+  position: relative;
+  border: 3px solid #e4e4e4;
+  /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
+
 }
 
-.col-2{flex: 2;
-   background-color: yellow;
-   margin:0px;
-   margin:1px;
-   border: 2px solid;}
 
-.col-3{flex: 3;
-   background-color: red;
-   margin:0px;
-   margin:1px;
-   border: 2px solid;}
+#ContainerChildTop{
+  background-color: #17a2b8;
+  height: 100px;
+
+}
+#ContainerChildBottom{
+  position: absolute;
+  top: 7%;
+  margin: 0% 0% 0% 4%;
+  height: auto;
+  width: auto;
+  padding: 0;
+}
+
+#Usercircle{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  padding: 1%;
+  border: 2px solid #cfcfcf;
+  /* filter: invert(100%); */
+  background-image: linear-gradient(to bottom, #FFFF 0%, #FFFF 100%) ;}
+
+ #gear{ width: 7%;
+  height: 7%;
+  display: inline;
+  margin-top: 0%;
+}
+
+  #MapMarker{
+  height: 7%;  
+  width: 7%;
+  display: inline;
+  }
+
+  #Location{
+    text-decoration: none;
+    color: black;
+    display: inline;
+  }
+
+  #editprofile{display: inline;
+  margin: 0;}
+
+a, p {vertical-align: top;
+  font-weight: bold;
+margin: 0;}
+
+#Description{margin-top: 2%;
+              margin-bottom: 5%;}
 
