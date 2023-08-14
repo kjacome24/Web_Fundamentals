@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Preahvihear', sans-serif;
+    
+  }
+ 
+ 
+  .ContainerParent{
+   width: 70%;
+   height: 550px;
+   border: 1% solid #e8e8e8;
+   margin: 5% auto;
+   position: relative;
+   border: 4px solid #e4e4e4;
+   /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
+ 
+ }
+ 
+ 
+ #ContainerChildTop{
+   background-color: #17a2b8;
+   height: 130px;
+ 
+ }
+ #ContainerChildBottom{
+   position: absolute;
+   top: 7%;
+   margin: 0% 0% 0% 4%;
+   height: auto;
+   width: auto;
+   padding: 0;
+ }
+ 
+ #Usercircle{
+   width: 40%;
+   height: 40%;
+   border-radius: 50%;
+   padding: 1%;
+   border: 4px solid #cfcfcf;
+   /* filter: invert(100%); */
+   background-image: linear-gradient(to bottom, #FFFF 0%, #FFFF 100%) ;}
+ 
+  #gear{ width: 7%;
+   height: 7%;
+   display: inline;
+   margin-top: 0%;
+   margin-right: 3%;
+ }
+ 
+   #MapMarker{
+   height: 7%;  
+   width: 7%;
+   display: inline;
+   margin-right: 3%;
+   }
+ 
+   #Location{
+     text-decoration: none;
+     color: black;
+     display: inline;
+ 
+   }
+ 
+   #editprofile{display: inline;
+   margin: 0;}
+ 
+ a, p {vertical-align: top;
+   font-weight: bold;
+ margin: 0;
+ font-size: large;}
+ 
+ h1 {font-size: xx-large;}
+ 
+ #Description{margin-top: 2%;
+               margin-bottom: 5%;}
