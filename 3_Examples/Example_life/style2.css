@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Preahvihear', sans-serif;
+    
+  }
+
+.Containereducation{
+    height: 500px;
+    width: auto;
+    border: 4px solid #cfcfcf;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column;
+}
+
+.Containereducationtitle{
+    background-color: #333333;
+    flex: 1;
+    display: flex;
+    color: #d0d0d0;
+    align-items: center;
+    justify-content: left;
+    padding-left: 3%;
+
+}
+
+
+.Infoeducation{
+    width: 90%;
+    padding-left: 3%;
+    margin-top: 1%;
+    flex: 5;
+}
+
