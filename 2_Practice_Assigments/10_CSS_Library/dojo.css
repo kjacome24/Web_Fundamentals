@@ -1,0 +1,103 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /*Favorite button*/
+  .btn{
+    color: #ebf7f9;
+    background-color: #17a2b8;
+    box-shadow: 5PX 7PX 0PX black; 
+    border: 2px solid black;
+    margin:0%;
+}
+
+/*Flexible columns*/
+.row {
+    display: flex;
+    }
+    .col {
+    flex: 1;
+    background-color: aqua;
+    margin:1px;
+    border: 2px solid;
+    }
+    
+    .col-2{flex: 2;
+       background-color: yellow;
+       margin:0px;
+       margin:1px;
+       border: 2px solid;}
+    
+    .col-3{flex: 3;
+       background-color: red;
+       margin:0px;
+       margin:1px;
+       border: 2px solid;}
+
+/*Flexible rows*/
+
+.columnmain{
+    width: 100%;
+    height: 100px;
+    background-color:  pink;
+    border: 3px solid ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column-reverse;
+  }
+  
+  .rowa{
+    width: 100%;
+    flex: 1; 
+    background-color:#333333;
+  }
+  
+  .rowb{  
+    width: 70%;
+    flex:7; 
+  }
+  
+/*navbar flex*/
+
+.nav{
+    background-color:#333333;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center; }
+
+/*Display grid*/
+
+.Containereducation{
+    display: grid;
+    height: 100px;
+    grid-template-columns: 30% 50%;
+    grid-template-rows: 30% 50%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#ater-1 {
+    height: 50px;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: blueviolet;
+    overflow: scroll;
+  }
+
+  #ater-2 {
+    height: 50px;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: pink;
+    overflow: scroll;
+  }
