@@ -1,0 +1,349 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Preahvihear', sans-serif;
+   
+ }
+
+ a, p {vertical-align: top;
+  font-weight: bold;
+margin: 0;
+font-size: large;
+}
+
+h1 {font-size: xx-large;}
+
+ .div0{
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
+}
+
+.div1a{
+  width: 100%;
+  height: auto;
+  background-color:black;
+  padding: 0%;
+  margin-top: 0;
+}
+
+.div1b{  
+  width: 70%;
+  height: auto;
+  margin: 2% auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.div2{
+  flex:2;
+  height: 95%;
+  margin-right: 1.5%;
+}
+
+.div3{flex:1;
+  height: auto;
+  margin-left: 1.5%;
+}
+
+.div2a{
+  height: 470px;
+  display: block;
+  margin-bottom: 1.5%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.div2b{
+  height: 500px;
+  display: block;
+  margin-top: 5%;
+}
+
+
+.div3a{
+  height: 250px;
+
+  display: block;
+  margin-bottom: 10%;
+  display: flex;
+}
+
+.div3b{
+  margin-top: 5%;
+  height: 500px;
+  display: block;
+}
+
+
+/*Here we go with flex navigation bar*/
+li, a, h4 {
+  list-style-type: none;
+  text-decoration: none;
+  color: #979797 ;}
+
+#active{
+  color: #d7d7d7;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.nav-title{ 
+display: inline-block;
+width: 50%;
+color: #fefefe;
+/* flex: 1; */
+}
+
+.nav-links{
+  margin: 0% 2% 0% 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center ;
+  flex: 1.5;
+  margin-right: 1.5%;
+  box-sizing: border-box;
+}
+
+.nav-linksb{
+  flex: 1;
+  margin-left: 1.5%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 70%;
+}
+
+.btn{
+  color: #ebf7f9;
+  background-color: #17a2b8;
+  box-shadow: 5PX 7PX 0PX black; 
+  border: 2px solid black;
+  margin:0%;
+  width: 20%;
+}
+
+
+/*Here we go with UserCard*/
+
+.ContainerParent{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: 4px solid #e4e4e4;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
+
+}
+
+
+#ContainerChildTop{
+  background-color: #17a2b8;
+  height: 130px;
+
+}
+#ContainerChildBottom{
+  position: absolute;
+  top: 7%;
+  margin: 0% 0% 0% 4%;
+  height: auto;
+  width: auto;
+  padding: 0;
+}
+
+#Usercircle{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  padding: 1%;
+  border: 4px solid #cfcfcf;
+  /* filter: invert(100%); */
+  background-image: linear-gradient(to bottom, #FFFF 0%, #FFFF 100%) ;}
+
+ #gear{ width: 7%;
+  height: 7%;
+  display: inline;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+  #MapMarker{
+  height: 7%;  
+  width: 7%;
+  display: inline;
+  margin-right: 3%;
+  }
+
+  #Location{
+    text-decoration: none;
+    color: black;
+    display: inline;
+
+  }
+
+  #editprofile{display: inline;
+  margin: 0;
+  color: #17a2b8}
+
+h1 {font-size: xx-large;}
+
+#Description{margin-top: 2%;
+              margin-bottom: 5%;}
+
+
+/*Here we go with CONNECTION REQUESTS*/
+
+.ContainerConnetionRequests{
+  height: auto;
+  width: 350px;
+  border: 4px solid #cfcfcf;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+  
+}
+
+.TitleContainerConnetionRequests{
+  background-color: #333333;
+  flex: 1;
+  display: flex;
+  color: #d0d0d0;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+}
+
+#btncount{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #cfcfcf;
+  color: #676767;
+  font-size: large;
+  margin: 2%;
+}
+
+.ToddE, .PhilK{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  font-size: x-large;
+}
+
+
+
+.ToddEA, .PhilKA{    display: flex;
+  align-items: center;
+  justify-content:  space-evenly;
+
+width: 50%;}
+
+.ToddEB, .PhilKB {    display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  width: 40%;}    
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+/*Here we go with Your connections*/
+
+
+
+.Containeryourconnections{
+  height: 500px;
+  width: auto;
+  border: 4px solid #cfcfcf;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+}
+
+.Containeryourconnectionstitle{
+  background-color: #333333;
+  flex: 1.5;
+  display: flex;
+  color: #d0d0d0;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#btnfriends{
+  border-radius: 50%;
+  height: 50px;
+  width: 100px;
+  border: 1px solid #cfcfcf;
+  color: #676767;
+  font-size: x-large;
+  margin: 2%;
+}
+
+.adriendd, .annej, .alaynet, .arryy{
+  width: 90%;
+  margin: 3% auto;
+  display: flex;
+  flex: 1;
+  justify-content: left;
+  font-size: x-large;
+}
+
+.viewmorefriends{
+  color: #17a2b8;
+  border-top: 4px solid #cfcfcf;
+  width: 100%;
+  flex: 0.5;
+  font-size: x-large;
+  padding: 5%;}
+
+  #viewmore{   margin: 0;
+    color: #17a2b8}
+
+/*Here we go with Education*/
+
+
+.Containereducation{
+  height: 500px;
+  width: auto;
+  border: 4px solid #cfcfcf;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+}
+
+.Containereducationtitle{
+  background-color: #333333;
+  flex: 1;
+  display: flex;
+  color: #d0d0d0;
+  align-items: center;
+  justify-content: left;
+  padding-left: 3%;
+
+}
+
+
+.Infoeducation{
+  width: 90%;
+  padding-left: 3%;
+  margin-top: 1%;
+  flex: 5;
+}
