@@ -1,349 +1,164 @@
+/*General rules*/
 * {
    margin: 0;
    padding: 0;
    font-family: 'Preahvihear', sans-serif;
-   
  }
 
- a, p {vertical-align: top;
-  font-weight: bold;
-margin: 0;
-font-size: large;
+h1 {font-size: 400%;
 }
 
-h1 {font-size: xx-large;}
+h2 {font-size: 300%;}
+h3 {font-size: 200%;}
+h4 , input {font-size:100%}
 
- .div0{
-  width: 100%;
-  height: 100%;
-  /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
-}
-
-.div1a{
-  width: 100%;
-  height: auto;
-  background-color:black;
-  padding: 0%;
-  margin-top: 0;
-}
-
-.div1b{  
-  width: 70%;
-  height: auto;
-  margin: 2% auto;
-  display: flex;
-  box-sizing: border-box;
-}
-
-.div2{
-  flex:2;
-  height: 95%;
-  margin-right: 1.5%;
-}
-
-.div3{flex:1;
-  height: auto;
-  margin-left: 1.5%;
-}
-
-.div2a{
-  height: 470px;
-  display: block;
-  margin-bottom: 1.5%;
-  box-sizing: border-box;
-  display: flex;
-}
-
-.div2b{
-  height: 500px;
-  display: block;
-  margin-top: 5%;
-}
-
-
-.div3a{
-  height: 250px;
-
-  display: block;
-  margin-bottom: 10%;
-  display: flex;
-}
-
-.div3b{
-  margin-top: 5%;
-  height: 500px;
-  display: block;
-}
-
-
-/*Here we go with flex navigation bar*/
-li, a, h4 {
-  list-style-type: none;
-  text-decoration: none;
-  color: #979797 ;}
-
-#active{
-  color: #d7d7d7;
-}
-
-.nav{
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
+/*Header layout*/
+header{
   margin: 0 auto;
-  align-items: center;
-}
-
-.nav-title{ 
-display: inline-block;
-width: 50%;
-color: #fefefe;
-/* flex: 1; */
-}
-
-.nav-links{
-  margin: 0% 2% 0% 0%;
-  padding: 0%;
+  width: 90%;
   display: flex;
+  background-color: #cccccc;
   justify-content: space-between;
-
-  align-items: center ;
-  flex: 1.5;
-  margin-right: 1.5%;
-  box-sizing: border-box;
-}
-
-.nav-linksb{
-  flex: 1;
-  margin-left: 1.5%;
-  display: flex;
-  justify-content: end;
+  padding: 2%;
   align-items: center;
-  height: 70%;
+  box-sizing: border-box;
+  margin-bottom: 2%;
+
 }
 
-.btn{
+#Searchname{
+  margin:0%;
+  width: 40%;
+  height: 40px;
+  border: 4px solid black;
+}
+
+#btn{
   color: #ebf7f9;
-  background-color: #17a2b8;
+  background-color: #2b78e4;
   box-shadow: 5PX 7PX 0PX black; 
   border: 2px solid black;
   margin:0%;
-  width: 20%;
-}
-
-
-/*Here we go with UserCard*/
-
-.ContainerParent{
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-  border: 4px solid #e4e4e4;
-  overflow: hidden;
-  box-sizing: border-box;
-  /* background: linear-gradient(to bottom,#17a2b8 30%,#ffff 30% 100%); */
-
-}
-
-
-#ContainerChildTop{
-  background-color: #17a2b8;
-  height: 130px;
-
-}
-#ContainerChildBottom{
-  position: absolute;
-  top: 7%;
-  margin: 0% 0% 0% 4%;
-  height: auto;
-  width: auto;
-  padding: 0;
-}
-
-#Usercircle{
-  width: 40%;
-  height: 40%;
-  border-radius: 50%;
-  padding: 1%;
-  border: 4px solid #cfcfcf;
-  /* filter: invert(100%); */
-  background-image: linear-gradient(to bottom, #FFFF 0%, #FFFF 100%) ;}
-
- #gear{ width: 7%;
-  height: 7%;
-  display: inline;
-  margin-top: 0%;
-  margin-right: 3%;
-}
-
-  #MapMarker{
-  height: 7%;  
   width: 7%;
-  display: inline;
-  margin-right: 3%;
-  }
+  height: 10%;
+  font-size: 150%;
+}
 
-  #Location{
-    text-decoration: none;
-    color: black;
-    display: inline;
+/*Main Layout*/
 
-  }
+main {
+  margin: 0 auto;
+  width: 90%;
+  height: 1024px; /*Delete when page is completed*/
+  padding: 0%;
+  display: flex;
+  box-sizing: border-box;
+}
 
-  #editprofile{display: inline;
-  margin: 0;
-  color: #17a2b8}
+.div2 {
+  height: 70%;
+  flex:2;
+  margin-right: 2%;
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+}
 
-h1 {font-size: xx-large;}
 
-#Description{margin-top: 2%;
-              margin-bottom: 5%;}
+.div2a {
+  flex:1;
+  border: 4px solid black;
+  display: flex;
+
+}
+
+.div2a1{
+  flex:1;
+
+  text-align: center;
+}
+
+.div2a2{
+  flex:3;
 
 
-/*Here we go with CONNECTION REQUESTS*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+}
 
-.ContainerConnetionRequests{
+
+
+.div2b {
+  flex:1;
+  border: 4px solid black;
+  margin-top: 2%;
+  display: flex;
+  
+}
+
+
+
+
+.div2b1{
+  flex:1;
+  text-align: center;
+
+}
+
+.div2b2{
+  flex:3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+}
+
+
+.div3 {
+  flex:1;
+  display: flex;
+  flex-direction:column;
+  box-sizing: border-box;
+}
+
+.div3a {
   height: auto;
-  width: 350px;
-  border: 4px solid #cfcfcf;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction:column;
-  
+  border: 4px solid black;
+  padding: 5%;
 }
 
-.TitleContainerConnetionRequests{
-  background-color: #333333;
-  flex: 1;
-  display: flex;
-  color: #d0d0d0;
-  align-items: center;
-  justify-content: space-evenly;
-  
-
-}
-
-#btncount{
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  border: 1px solid #cfcfcf;
-  color: #676767;
-  font-size: large;
-  margin: 2%;
-}
-
-.ToddE, .PhilK{
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
-  font-size: x-large;
-}
-
-
-
-.ToddEA, .PhilKA{    display: flex;
-  align-items: center;
-  justify-content:  space-evenly;
-
-width: 50%;}
-
-.ToddEB, .PhilKB {    display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-  width: 40%;}    
-
-img {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
-
-
-/*Here we go with Your connections*/
-
-
-
-.Containeryourconnections{
-  height: 500px;
-  width: auto;
-  border: 4px solid #cfcfcf;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction:column;
-}
-
-.Containeryourconnectionstitle{
-  background-color: #333333;
-  flex: 1.5;
-  display: flex;
-  color: #d0d0d0;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-
-#btnfriends{
-  border-radius: 50%;
-  height: 50px;
-  width: 100px;
-  border: 1px solid #cfcfcf;
-  color: #676767;
-  font-size: x-large;
-  margin: 2%;
-}
-
-.adriendd, .annej, .alaynet, .arryy{
+#btn2{
+  color: black;
+  background-color: #93c47d;
+  box-shadow: 5PX 5PX 0PX black; 
+  border: 2px solid black;
   width: 90%;
-  margin: 3% auto;
+  height: 20%;
+  font-size: 200%;
+  font-weight: bold;
+  margin: 0 auto;
   display: flex;
-  flex: 1;
-  justify-content: left;
-  font-size: x-large;
-}
-
-.viewmorefriends{
-  color: #17a2b8;
-  border-top: 4px solid #cfcfcf;
-  width: 100%;
-  flex: 0.5;
-  font-size: x-large;
-  padding: 5%;}
-
-  #viewmore{   margin: 0;
-    color: #17a2b8}
-
-/*Here we go with Education*/
-
-
-.Containereducation{
-  height: 500px;
-  width: auto;
-  border: 4px solid #cfcfcf;
-  overflow: hidden;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction:column;
-}
-
-.Containereducationtitle{
-  background-color: #333333;
-  flex: 1;
-  display: flex;
-  color: #d0d0d0;
+  justify-content: center;
   align-items: center;
-  justify-content: left;
-  padding-left: 3%;
-
 }
 
-
-.Infoeducation{
+#btn3, #btn4 {
+  color: black;
+  background-color: #ffd966;
+  box-shadow: 5PX 5PX 0PX black; 
+  border: 2px solid black;
   width: 90%;
-  padding-left: 3%;
-  margin-top: 1%;
-  flex: 5;
+  height: 15%;
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerbuttons{
+  margin-top: 10%;
 }

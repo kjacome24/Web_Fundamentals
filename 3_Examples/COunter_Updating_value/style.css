@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Preahvihear', sans-serif;
+   
+ }
+
+
+#container{
+  height: 500px;
+  width: 500px;
+  background-color:  rebeccapurple;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+}
+
+.btn{
+  color: #ebf7f9;
+  background-color: #17a2b8;
+  box-shadow: 5PX 7PX 0PX black; 
+  border: 2px solid black;
+  margin:0%;
+}
+
+#container2 {background-color: pink;
+  height: 100px;
+  width: 100px;}
