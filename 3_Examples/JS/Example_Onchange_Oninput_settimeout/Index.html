@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatvsDog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>OnInput - Example</h1>
+  <p>Hello my name is <span id="name"></span></p>
+  <input type="text" name="name" placeholder="your name here" oninput="setname(this)">
+
+  <h1>Onselect  - Example</h1>
+
+  <select name="food" onchange="pickfood(this)">
+    <option>Pizza</option>
+    <option>Kababs</option>
+    <option>Sandwich</option>
+    <option>Sishi</option>
+  </select>
+  <button onclick="Ordering()">Order now</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
