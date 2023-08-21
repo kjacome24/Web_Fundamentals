@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Document</title>
+
+</head>
+<body>
+  <div class="div0">
+    <div class="div1a">
+          <div class="nav">
+            <ul class="nav-links">
+                <li><h1 class="nav-title">Profile</h1></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" id="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <div class="nav-linksb">
+              <button class="btn">Sign Out</button>
+            </div>
+          </div>
+    </div>
+    <div class="div1b">
+      <div2 class="div2">
+        <div class="div2a">
+          <div class="ContainerParent">
+            <div id="ContainerChildTop"></div>
+            <div id="ContainerChildBottom">
+              <img id="Usercircle" src="images/user-circle.png" alt="user-circle">
+              <h1 id="namejane">Jane Doe</h1>
+              <img id="MapMarker" src="images/map-marker.png" alt="map-marker">
+              <a id="Location" href="https://www.google.com/maps/place/Seattle,+WA,+USA/@47.6129104,-122.5068714,11z/data=!3m1!4b1!4m6!3m5!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708!16zL20vMGQ5anI?entry=ttu">Seattle</a>
+              <div id="Description"><p> Developer | Engineer | Problem Solver</p>
+                <p> Master of shadows and the internet!</p>
+              </div>  
+                <img id="gear" src="images/gear.png" alt="gear">
+                <p id="editprofile" onclick="editprofile()">edit profile </p>
+                <div id="newname"></div>
+            </div>
+          </div>
+        </div>
+        <div class="div2b">
+          <div class="Containereducation">
+            <div class="Containereducationtitle">
+                <h2>Education</h2>
+            </div>       
+            <div class="Infoeducation">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h4 id="dateeducation"> Dec 2019 - Mar 2020</h4>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae veniam eum ipsa laboriosam, quos exercitationem?</p>
+            </div>         
+          </div>
+
+        </div>
+      </div2>
+      <div3 class="div3">
+        <div class="div3a">
+          
+          <div class="ContainerConnetionRequests">
+            <div class="TitleContainerConnetionRequests">
+                <button id="btncount">2</button>
+                <h2>Connection Requests</h2>
+            </div>       
+            <div class="ToddE" id="ToddEB" onclick="deleterequest(this)">
+                <div class="ToddEA">
+                    <img src="images/todd-s.jpg" alt="todd-s">
+                    <p>Todd E</p>
+                </div>
+                <div class="ToddEB">
+                    <img src="images/accept-circle.png" onclick="addyourconnectioncount()" alt="accept-circle">
+                    <img src="images/close-circle.png" alt="close-circle">
+                </div>
+            </div>       
+            <div class="PhilK" id="PhilKB" onclick="deleterequest(this)">
+                <div class="PhilKA">
+                    <img src="images/phil-s.jpg" alt="phil-s">
+                    <p>Phil K</p>
+                </div>
+                <div class="PhilKB">
+                    <img src="images/accept-circle.png" onclick="addyourconnectioncount()" alt="accept-circle">
+                    <img src="images/close-circle.png" alt="close-circle">
+                </div>    
+            </div>        
+          </div>
+    
+
+
+        </div>
+        <div class="div3b">
+
+          <div class="Containeryourconnections">
+            <div class="Containeryourconnectionstitle">
+                <button id="btnfriends">418</button>
+                <h2>Your connections</h2>
+            </div>       
+            <div class="adriendd">
+                    <img src="images/adrien-s.jpg" alt="adrien-s">
+                    <p>Todd E</p>
+            </div>       
+            <div class="annej">
+                    <img src="images/anne-s.jpg" alt="anne-s">
+                    <p>Anne J</p>
+            </div>
+    
+            <div class="alaynet">
+                    <img src="images/alayne-s.jpg" alt="alayne-s">
+                    <p>Phil K</p>
+            </div>
+            <div class="arryy">
+                    <img src="images/arry-s.jpg" alt="arry-s">
+                    <p>Phil K</p>
+            </div>      
+            <div class="viewmorefriends">
+                <a id="viewmore" href="https://www.facebook.com/help/204604196335128">View More</a>
+            </div>    
+          </div>
+
+        </div>
+      </div3>
+    </div>
+  </div>
+</body>
+</html>
+
