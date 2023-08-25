@@ -1,206 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Preahvihear', sans-serif;
-    
+.custom-selector {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
-header {
-    background-color: #9fc5f8;
-    color: #ffff;
-    height: 70px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
+.custom-selector::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 6px 0 6px; /* Arrow size and shape */
+  border-color: #000 transparent transparent transparent; /* Arrow color */
 }
 
-.divhader1{
-    flex:1;
-    display: flex;
-    align-items: center;
+.dropdown-options {
+  display: none; /* Hide the options by default */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: px solid black;
 }
 
-.divhader2{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-P, h3, select {display: inline-block;}
-
-img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-
-}
-
-#cookieimg{
-    height: 70px;
-    width: 70px;
-}
-.red{
-    font-weight: bold;
-    color: #cf2a27;
-}
-
-.blue{
-    font-weight: bold;
-    color: #2d79e4;
-}
-
-footer{
-    background-color: #eeeeee;
-    border: 3px solid black;
-    margin-left: 10%;
-    margin-right: 10%;
-    position: fixed;
-    bottom: 5px;
-    display: flex;
-}
-
-
-.divfooter1{
-    flex:1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.divfooter2{
-    flex:4;
-}
-.divfooter3{
-    flex:1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#btndisco{
-    color: black;
-    background-color: #9fc5f8;
-    box-shadow: 5PX 7PX 0PX black; 
-    border: 2px solid black;
-    margin:0%;
-    width: 20%;
-    font-weight: bold;
-    width: 70%;}
-
-main{
-    height: 290px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-direction: column;
-}
-
-.divamain1{
-
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.divamain2{
-    flex: 3;
-    display: flex;
-    box-sizing: border-box;
-}
-
-.divamain2a{
-    flex: 1;
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-right: 5%;
-}
-.divamain2b{
-    flex: 1;
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-right: 5%;
-}
-.divamain2c{
-    flex: 1;
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-right: 5%;
-}
-.divamain2d{
-    flex: 1;
-    background-color: #eeeeee;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-
-.divamain2a1{
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.divamain2a2{
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-}
-
-.divamain2b1{
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.divamain2b2{
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-
-}
-
-.divamain2c1{
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.divamain2c2{
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-}
-
-.divamain2d1{
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.divamain2d2{
-    flex: 1;
-    display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
-
-}
+.dropdown.active .dropdown-options {
+  display: block; /* Show the options when the dropdown is active */
+  border: px solid black;}

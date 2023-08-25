@@ -2,107 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CatvsDog</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+  <title>Dropdown Styling</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="divhader1">
-        <H1>DojoWeather</H1>
-    </div> 
-    <div class="divhader2">
-        <h3 onclick="Loadingw()">Burbank</h3>
-        <h3 onclick="Loadingw()">Chicago</h3>
-        <h3 onclick="Loadingw()">Dallas</h3>
-    </div> 
-  </header>
-  <main>
-    <div class="divamain1">
-      <div class="divamain1a">
-        <h2>San Jose</h2>
-      </div>
-      <div class="divamain1b">
-        <p id="ptemp">show temperature in </p>
-        <select id="selectbtn" name="temperature" onchange="temperaturepick(this)">
-          <option>°C</option>
-          <option>°F</option>
-        </select>
-      </div>
-    </div>
-    <div class="divamain2">
-      <div class="divamain2a">
-        <div class="divamain2a1">
-          <h3>Today</h3>
-          <img src="images/some_rain.png" alt="some_rain">
-          <p>some rain</p>
-        </div>
-        <div class="divamain2a2">
-          <p id="redtoday" class="red">24°</p>
-          <p id="bluetoday" class="blue">18°</p>
-        </div>
-      </div>
-      <div class="divamain2b">
-        <div class="divamain2b1">
-          <h3>Tomorrow</h3>
-          <img src="images/some_sun.png" alt="some_sun">
-          <p>some sun</p>
-        </div>
-        <div class="divamain2b2">
-          <p id="redtomorrow" class="red">27°</p>
-          <p id="bluetomorrow" class="blue">19°</p>
-        </div>
-      </div>
+  <div class="dropdown">
+    <div class="custom-selector">Click me</div>
+    <ul class="dropdown-options">
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </div>
 
-      <div class="divamain2c">
-
-        <div class="divamain2c1">
-          <h3>Friday</h3>
-          <img src="images/some_clouds.png" alt="some_clouds">
-          <p>some clouds</p>
-        </div>
-        <div class="divamain2c2">
-          <p id="redfriday" class="red">21°</p>
-          <p id="bluefriday" class="blue">16°</p>
-        </div>
-
-
-
-      </div>
-      <div class="divamain2d">
-
-        <div class="divamain2d1">
-          <h3>Saturday</h3>
-          <img src="images/some_sun.png" alt="some_sun">
-          <p>some sun</p>
-        </div>
-        <div class="divamain2d2">
-          <p id="redsaturday" class="red">26°</p>
-          <p id="bluesaturday" class="blue">21°</p>
-        </div>
-
-
-      </div>
-    </div>
-    
-  </main>
-  <footer id="footer0">
-    <div class="divfooter1">
-      <img id="cookieimg" src="images/cookie.png" alt="cookie">
-    </div>
-    <div class="divfooter2">
-      <h4>Stop! Cookie time</h4>
-      <P>We use cookies (sadly not the editable ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="xx">Read more...</a></P>
-    </div>
-    <div class="divfooter3">
-      <button id="btndisco" onclick="dismiscookie()">I Accept</button>
-    </div>
-  </footer>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
